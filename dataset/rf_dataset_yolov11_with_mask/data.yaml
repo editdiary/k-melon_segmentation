@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Flower', 'Immature_fruit', 'Leaf', 'Mature_fruit', 'Stem']
+
+roboflow:
+  workspace: projectchamoe
+  project: k-melon_seg_prototype
+  version: 7
+  license: MIT
+  url: https://universe.roboflow.com/projectchamoe/k-melon_seg_prototype/dataset/7
